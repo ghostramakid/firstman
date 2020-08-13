@@ -1,0 +1,137 @@
+#firstman {
+    font-family: 'Lemonada', cursive;
+}
+
+#firstman span {
+    color: red;
+}
+
+.head-let {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.head-desc {
+    font-family: 'Overpass', sans-serif;
+    font-style: italic;
+}
+
+.jumbotron {
+    background-image: url(../assets/header.jpg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    background-attachment: fixed;
+    background-position: 0 -100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jumbotron2 {
+    background-image: url(../assets/about.jpg);
+    background-size: cover;
+    height: 600px;
+    text-align: right;
+    position: sticky;
+    background-attachment: fixed;
+    background-position: 0 -100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jumbotron3 {
+    background-image: url(../assets/maintenance.jpg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    position: sticky;
+    background-attachment: fixed;
+    background-position: 0 -190px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jumbotron .container,
+.jumbotron2 .container {
+    margin-top: 100px;
+}
+
+
+body .content {
+    font-family: 'Fira Sans', sans-serif;
+    color: #494949;
+    text-align: center;
+}
+
+#judul {
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.isi1,
+.isi2 {
+    /* margin-top: 70px */
+    margin: 30px 45px 0px 45px;
+    font-size: 30px;
+    font-style: italic;
+    color: darkslategrey;
+}
+
+.isi1 {
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.card {
+    height: 400px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.logo2 {
+    width: 150px;
+    height: 150px;
+    margin: 20px 10px 1px 70px;
+}
+
+.contact {
+    height: 600px;
+}
+
+
+.footer {
+    padding: 10px;
+    color: white;
+    background-color: #343A40;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+
+}
+
+/* Setting untuk responsive */
+@media (max-width: 1000px) {
+    .jumbotron {
+        background-position: center;
+    }
+
+}
+
+
+@media (max-width: 1920px) {
+
+    .jumbotron3,
+    .jumbotron2,
+    .jumbotron {
+        height: 941px;
+    }
+}
